@@ -1,0 +1,33 @@
+﻿<?php
+$mailto1 = "info@rrentreprenad.se";
+$mailto2 = "tartakab@gmail.com"; 
+$charset = "utf-8";
+$subject = " Prisförfrågan från :  ".date("r");
+$CustName=$_POST['posName'];
+$phone = $_POST['posPhone'];
+$CustEmail=$_POST['posEmail'];
+$content = "text/plain";
+$message = $_POST['posText'];
+$ListRegion = $_POST['region'];
+$DiffRegion= $_POST['annanregion'];
+$CustAdress= $_POST['adress'];
+$CustPostnummer= $_POST['postnummer'];
+$OnskadTak= $_POST['onskad'];
+$Planer= $_POST['planerar'];
+$Stallning= $_POST['byggnad'];
+$TakYta= $_POST['takytans'];
+$HusHojd= $_POST['hojd'];
+$TakLutning= $_POST['takvinkel'];
+$HusAlder= $_POST['fastighet'];
+$ExtraMeddelande=$_POST['meddelande'];
+$statusError = "";
+$statusSuccess = "";
+$errors_name = 'Fyll i namnet';
+$errors_mailfrom = 'Fyll i E-mailadress ';
+$errors_incorrect = 'Kontrolera E-mailen';
+$errors_incorrect2 = 'Ogiltigt telefonnummer';
+$errors_message = 'Meddelande';
+$errors_subject = 'Введите тему сообщения';
+$captcha_error = 'Kontrolera säkerhetskod';
+$send = 'Din förfrågan är skickad. Vi återkommer snart. Tack!';
+?>

@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+
+<html lang="sv">
+
+	<head>
+		<title>
+			RR Entreprenad - taklaggare och fasadrenovering taklaggning takarbeten takrenovering 
+		</title>
+			<link  rel="stylesheet" type="text/css" href="style.css"/>
+			
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div id="header_left">
+						<a href="index.html"><img src="img/logo.png" alt="Startsida"></a>
+				</div><!--end header_left-->
+				<!--<div id="header_right">
+							<li>Ormangsgatan 45,16556 Hasselby</li>
+							<li>0707999016</li>
+							<li><a href="mailto:info@rrentreprenad.se">
+							info@rrentreprenad.se</a>
+				</div><!--end header_right-->
+			</div><!--end header-->
+			<div id="navigation">
+					<ul id="nav">
+						<li class="navi"><a href="Omoss.html">OM OSS</a></li>
+						<li class="navi"><a href="Tjanster.html">TJÄNSTER</a></li>
+						<li class="navi"><a href="Kungtrygghet.html">KUNDTRYGGHET</a></li>
+						<li class="navi"><a href="prisforfragan.php">PRISFÖRFRAGAN</a></li>
+						<li class="navi"><a href="ROTavdrag.html">ROT-AVDRAG</a></li>
+                        <li class="navi"><a href="Referencer.html">REFERENCER</a></li>
+						<li class="navi"><a href="Kontaktaoss.html">KONTAKTA OSS</a></li>				
+					</ul>
+				</div><!-- end navigation-->
+			<div id="slider">
+						<script language="javascript">
+
+							/*
+							Random image slideshow- By Tyler Clarke (tyler@ihatecoffee.com)
+							For this script and more, visit http://www.javascriptkit.com
+							*/
+
+							var delay=3000 //set delay in miliseconds
+							var curindex=0
+
+							var randomimages=new Array()
+
+								randomimages[0]="img/Slider/1.jpg"
+								randomimages[1]="img/Slider/5.jpg"
+								randomimages[2]="img/Slider/2.jpg"
+								randomimages[3]="img/Slider/4.jpg"
+								randomimages[4]="img/Slider/3.jpg"
+								randomimages[5]="img/Slider/6.jpg"
+
+							var preload=new Array()
+
+							for (n=0;n<randomimages.length;n++)
+							{
+								preload[n]=new Image()
+								preload[n].src=randomimages[n]
+							}
+
+							document.write('<img name="defaultimage" src="'+randomimages[Math.floor(Math.random()*(randomimages.length))]+'">')
+
+							function rotateimage()
+							{
+
+							if (curindex==(tempindex=Math.floor(Math.random()*(randomimages.length)))){
+							curindex=curindex==0? 1 : curindex-1
+							}
+							else
+							curindex=tempindex
+
+								document.images.defaultimage.src=randomimages[curindex]
+							}
+
+							setInterval("rotateimage()",delay)
+
+							</script>
+			</div><!--end of slider-->
+			
+			<div id="content" >
+			Nullam enim metus, venenatis condimentum interdum cursus, imperdiet et ante. Morbi in ante dui. Duis laoreet ultrices est sed faucibus. In massa nibh, dignissim sit amet dignissim eget, semper ac tortor. Nullam ut condimentum metus. Nam tincidunt arcu viverra massa euismod sed placerat elit rhoncus. Sed porttitor, sapien ac accumsan eleifend, nunc felis cursus dui, sed sollicitudin mauris diam vitae nunc. Nam nec ipsum dolor. Pellentesque id metus nisi. Suspendisse luctus posuere neque, non tincidunt mauris sodales sit amet. Donec congue erat eu mi accumsan sit amet tincidunt mauris hendrerit. Vivamus ipsum magna, congue nec ultricies nec, egestas sed elit. Vestibulum ultricies est eget orci malesuada ornare. Nulla facilisi. Quisque elementum est ultricies mauris pellentesque bibendum.
+
+			Suspendisse eget turpis eu nisi aliquam volutpat non ut odio. Sed congue pulvinar ipsum, vitae convallis nibh pretium lacinia. Nulla facilisi. Nunc tempus metus nec lacus placerat ut imperdiet turpis fermentum. In hac habitasse platea dictumst. Ut placerat pretium enim, vitae rutrum neque faucibus ac. In consectetur, lectus eu consectetur gravida, massa augue venenatis dui, a fringilla felis dui at elit. Sed adipiscing mollis purus non accumsan. Proin non ante tellus. Vestibulum id eros sed sapien scelerisque imperdiet.
+			
+			</div><!--end of content-->
+			<div id="footer">
+				<div id="Solid">
+					<a href="http://www.soliditet.se/lang/sv_SE/RatingGuideline" target="_blank" style="text-decoration: none;"><img style="border:0px;" oncontextmenu="return false" title="Vi &auml;r ett kreditv&auml;rdigt f&ouml;retag enligt Soliditets v&auml;rderingssystem som baserar sig p&aring; en m&auml;ngd olika beslutsregler. Denna uppgift &auml;r alltid aktuell&#44; informationen uppdateras dagligen via Soliditets databas." alt="Vi &auml;r ett kreditv&auml;rdigt f&ouml;retag enligt Soliditets v&auml;rderingssystem som baserar sig p&aring; en m&auml;ngd olika beslutsregler. Denna uppgift &auml;r alltid aktuell&#44; informationen uppdateras dagligen via Soliditets databas." id="img_273_73_px" src="http://merit.soliditet.se/merit/imageGenerator/display?lang=SE&country=SE&cId=hdiusnevL%2FMJGRHGorii7Q%3D%3D&cUid=ycnQj7K2m6I%3D&imgType=img_273_73_px" /></a>
+				</div><!--end of solid-->
+				<div id="copyright">
+				</div><!--end of copyright>
+			</div><!--end of footer-->
+		</div><!-- end of wrap-->
+	</body>
+</html>

@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+
+<html lang="sv">
+
+	<head>
+		<title>
+			RR Entreprenad - taklaggare och fasadrenovering taklaggning takarbeten takrenovering 
+		</title>
+			<link  rel="stylesheet" type="text/css" href="style.css"/>
+			
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div id="header_left">
+						<a href="index.html"><img src="img/logo.png" alt="Startsida"></a>
+				</div><!--end header_left-->
+				<!--<div id="header_right">
+							<li>Ormangsgatan 45,16556 Hasselby</li>
+							<li>0707999016</li>
+							<li><a href="mailto:info@rrentreprenad.se">
+							info@rrentreprenad.se</a>
+				</div><!--end header_right-->
+			</div><!--end header-->
+			<div id="navigation">
+					<ul id="nav">
+						<li class="navi"><a href="Omoss.html">OM OSS</a></li>
+						<li class="navi"><a href="Tjanster.html">TJÄNSTER</a></li>
+						<li class="navi"><a href="Kungtrygghet.html">KUNDTRYGGHET</a></li>
+						<li class="navi"><a href="prisforfragan.php">PRISFÖRFRÅGAN</a></li>
+						<li class="navi"><a href="ROTavdrag.html">ROT-AVDRAG</a></li>
+                       <!-- <li class="navi"><a href="Referencer.html">REFERENCER</a></li>-->
+						<li class="navi"><a href="Kontaktaoss.html">KONTAKTA OSS</a></li>				
+					</ul>
+				</div><!-- end navigation-->
+			<div id="slider">
+						<script language="javascript">
+
+							/*
+							Random image slideshow- By Tyler Clarke (tyler@ihatecoffee.com)
+							For this script and more, visit http://www.javascriptkit.com
+							*/
+
+							var delay=3000 //set delay in miliseconds
+							var curindex=0
+
+							var randomimages=new Array()
+
+								randomimages[0]="img/Tjanster/tjanster1.jpg"
+								randomimages[1]="img/Tjanster/tjanster2.jpg"
+								randomimages[2]="img/Tjanster/tjanster3.jpg"
+								randomimages[3]="img/Tjanster/tjanster4.jpg"
+								randomimages[4]="img/Tjanster/tjanster5.jpg"
+								randomimages[5]="img/Tjanster/tjanster6.jpg"
+								randomimages[6]="img/Tjanster/tjanster7.jpg"
+								randomimages[7]="img/Tjanster/tjanster8.jpg"
+								randomimages[8]="img/Tjanster/tjanster9.jpg"
+								randomimages[9]="img/Tjanster/tjanster10.jpg"
+								randomimages[10]="img/Tjanster/tjanster11.jpg"
+								randomimages[11]="img/Tjanster/tjanster12.jpg"
+								randomimages[12]="img/Tjanster/tjanster13.jpg"
+															
+						
+							var preload=new Array()
+
+							for (n=0;n<randomimages.length;n++)
+							{
+								preload[n]=new Image()
+								preload[n].src=randomimages[n]
+							}
+
+							document.write('<img name="defaultimage" src="'+randomimages[Math.floor(Math.random()*(randomimages.length))]+'">')
+
+							function rotateimage()
+							{
+
+							if (curindex==(tempindex=Math.floor(Math.random()*(randomimages.length)))){
+							curindex=curindex==0? 1 : curindex-1
+							}
+							else
+							curindex=tempindex
+
+								document.images.defaultimage.src=randomimages[curindex]
+							}
+
+							setInterval("rotateimage()",delay)
+
+							</script>
+			</div><!--end of slider-->
+			
+			<div id="content" >
+			&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbspVi arbetar med tak i alla dess former och utföranden. Detta omfattar Tegeltak, Shingeltak, Decratak, Papptak, Plåttak, Takavvattning, Taksäkerhetsåtgärder, Takmålning, Montage av takfönster, Skorstensbeslag mm
+
+			Utöver detta så kan vi på kunds begäran även utför snickeriarbeten, fasadmålningar och ytskiktsrenoveringar. Alla dessa arbeten sker i enighet med (HUS AMA:s) <a href='http://ama.byggtjanst.se/#VadArAma'>föreskrifter.</a>
+
+			
+			</div><!--end of content-->
+			<div id="footer">
+				<!--<div id="Solid">
+					<a href="http://www.soliditet.se/lang/sv_SE/RatingGuideline" target="_blank" style="text-decoration: none;"><img style="border:0px;" oncontextmenu="return false" title="Vi &auml;r ett kreditv&auml;rdigt f&ouml;retag enligt Soliditets v&auml;rderingssystem som baserar sig p&aring; en m&auml;ngd olika beslutsregler. Denna uppgift &auml;r alltid aktuell&#44; informationen uppdateras dagligen via Soliditets databas." alt="Vi &auml;r ett kreditv&auml;rdigt f&ouml;retag enligt Soliditets v&auml;rderingssystem som baserar sig p&aring; en m&auml;ngd olika beslutsregler. Denna uppgift &auml;r alltid aktuell&#44; informationen uppdateras dagligen via Soliditets databas." id="img_273_73_px" src="http://merit.soliditet.se/merit/imageGenerator/display?lang=SE&country=SE&cId=hdiusnevL%2FMJGRHGorii7Q%3D%3D&cUid=ycnQj7K2m6I%3D&imgType=img_273_73_px" /> </a>  
+				</div><!--end of solid-->
+				<div id="copyright">    Copyright &#169 2012  <a href='mailto:e.protsyuk@gmail.com'>YeP</a>
+				</div><!--end of copyright>
+			</div><!--end of footer-->
+		</div><!-- end of wrap-->
+	</body>
+</html>

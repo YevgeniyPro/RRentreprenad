@@ -1,0 +1,62 @@
+/*
+RREntreprenad.se 
+Code by Juggee
+Designed by Vovka.Saint 
+*/
+@import url("reset.css");
+/*General Styles*/
+html  {
+	height: 100%
+
+}
+body {
+backgroung:#fffff;
+font-family: Calibri, Arial, Helvetica;
+color: #4b4b4b;
+min-height: 100%;
+padding-top: 15px;
+margin:0;
+}
+p {
+font-size: 11px;
+color: #4b4b4b;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: #363535;
+	font-size: 11px;
+	
+	
+}
+a: hover {
+	text-decoration: none;
+	outline: none;
+	color: #6d6b6b;
+	font-size: 11px;
+}
+#wrap {
+	width: 860px;
+	margin: 0 auto;
+}
+
+#navigation {
+	width: 855px;
+	height:45px;
+	background-image: url(/img/nav_bg.png);
+	margin: 25px auto;
+}
+
+ul { 
+	font-family: Arial;
+	font-size :11px;
+	margin : 10px 0 0 0;
+}
+li  #nav{
+	display: inline;
+}
+#content {
+	font-family: Arial;
+	font-size :15px;	
+}

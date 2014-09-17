@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html lang="sv">
+
+	<head>
+		<title>
+			RR Entreprenad - taklaggare och fasadrenovering taklaggning takarbeten takrenovering 
+		</title>
+			<link  rel="stylesheet" type="text/css" href="style.css"/>
+			
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div id="header_left">
+						<a href="index.html"><img src="img/logo.png" alt="Startsida"></a>
+				</div><!--end header_left-->
+				<!--<div id="header_right">
+							<li>Ormangsgatan 45,16556 Hasselby</li>
+							<li>0707999016</li>
+							<li><a href="mailto:info@rrentreprenad.se">
+							info@rrentreprenad.se</a>
+				</div><!--end header_right-->
+			</div><!--end header-->
+			<div id="navigation">
+					<ul id="nav">
+						<li class="navi"><a href="Omoss.html">OM OSS</a></li>
+						<li class="navi"><a href="Tjanster.html">TJÄNSTER</a></li>
+						<li class="navi"><a href="Kungtrygghet.html">KUNDTRYGGHET</a></li>
+						<li class="navi"><a href="prisforfragan.php">PRISFÖRFRÅGAN</a></li>
+						<li class="navi"><a href="ROTavdrag.html">ROT-AVDRAG</a></li>
+                        <!-- <li class="navi"><a href="Referencer.html">REFERENCER</a></li>-->
+						<li class="navi"><a href="Kontaktaoss.html">KONTAKTA OSS</a></li>				
+					</ul>
+				</div><!-- end navigation-->
+			<div id="slider">
+						<script language="javascript">
+
+							/*
+							Random image slideshow- By Tyler Clarke (tyler@ihatecoffee.com)
+							For this script and more, visit http://www.javascriptkit.com
+							*/
+
+							var delay=3000 //set delay in miliseconds
+							var curindex=0
+
+							var randomimages=new Array()
+
+								
+								randomimages[0]="img/Index/index1.jpg"
+								randomimages[1]="img/Index/index2.jpg"
+								randomimages[2]="img/Index/index3.jpg"
+								randomimages[3]="img/Index/index4.jpg"
+								randomimages[4]="img/Index/index5.jpg"
+								randomimages[5]="img/Index/index6.jpg"
+								randomimages[6]="img/Index/index7.jpg"
+
+							var preload=new Array()
+
+							for (n=0;n<randomimages.length;n++)
+							{
+								preload[n]=new Image()
+								preload[n].src=randomimages[n]
+							}
+
+							document.write('<img name="defaultimage" src="'+randomimages[Math.floor(Math.random()*(randomimages.length))]+'">')
+
+							function rotateimage()
+							{
+
+							if (curindex==(tempindex=Math.floor(Math.random()*(randomimages.length)))){
+							curindex=curindex==0? 1 : curindex-1
+							}
+							else
+							curindex=tempindex
+
+								document.images.defaultimage.src=randomimages[curindex]
+							}
+
+							setInterval("rotateimage()",delay)
+
+							</script>
+			</div><!--end of slider-->
+			
+			<div id="content" >
+		&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp	Självklart tar vi hand om ansökningarna för rot-avdrag.
+	Från och med måndagen den 8 december 2008 återinförs ROT-avdraget. Villaägare och bostadsrättsinnehavare får göra ett skatteavdrag med 50% på belopp upp till maximalt 100 000 kronor när man anlitar en hantverkare för renovering, ombyggnad eller tillbyggnad. Avdraget gäller enbart arbetskostnaden, inte material, och självklart ska företaget som anlitas ha en F-skattsedel.
+	ROT-avdraget är kopplat till den enskilda individen. Är man två delägare i huset/bostadsrätten kan alltså hushållet få en skattereduktion på 2 x 50 000 kronor om arbetskostnaden uppgår till 200 000 kronor. Även arbeten som utförs i ett fritidshus omfattas, så länge man själv som privatperson står som ägare till det och det enligt fastighetstaxeringen är klassat som småhus.
+	För mer information om ROT-avdraget och hur det fungerar klicka <a href='http://www.skatteverket.se/privat/skatter/fastigheterbostad/husarbete.4.2e56d4ba1202f95012080002966.html'>här...</a>
+			
+			</div><!--end of content-->
+			<div id="footer">
+				<!--<div id="Solid">
+					<a href="http://www.soliditet.se/lang/sv_SE/RatingGuideline" target="_blank" style="text-decoration: none;"><img style="border:0px;" oncontextmenu="return false" title="Vi &auml;r ett kreditv&auml;rdigt f&ouml;retag enligt Soliditets v&auml;rderingssystem som baserar sig p&aring; en m&auml;ngd olika beslutsregler. Denna uppgift &auml;r alltid aktuell&#44; informationen uppdateras dagligen via Soliditets databas." alt="Vi &auml;r ett kreditv&auml;rdigt f&ouml;retag enligt Soliditets v&auml;rderingssystem som baserar sig p&aring; en m&auml;ngd olika beslutsregler. Denna uppgift &auml;r alltid aktuell&#44; informationen uppdateras dagligen via Soliditets databas." id="img_273_73_px" src="http://merit.soliditet.se/merit/imageGenerator/display?lang=SE&country=SE&cId=hdiusnevL%2FMJGRHGorii7Q%3D%3D&cUid=ycnQj7K2m6I%3D&imgType=img_273_73_px" /> </a>  
+				</div><!--end of solid-->
+				<div id="copyright">    Copyright &#169 2012  <a href='mailto:e.protsyuk@gmail.com'>YeP</a>
+				</div><!--end of copyright>
+			</div><!--end of footer-->
+		</div><!-- end of wrap-->
+	</body>
+</html>

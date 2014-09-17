@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+
+<html lang="sv">
+
+	<head>
+		<title>
+			RR Entreprenad - taklaggare och fasadrenovering taklaggning takarbeten takrenovering 
+		</title>
+			<link  rel="stylesheet" type="text/css" href="style.css"/>
+			
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div id="header_left">
+						<a href="index.html"><img src="img/logo.png" alt="Startsida"></a>
+				</div><!--end header_left-->
+				<!--<div id="header_right">
+							<li>Ormangsgatan 45,16556 Hasselby</li>
+							<li>0707999016</li>
+							<li><a href="mailto:info@rrentreprenad.se">
+							info@rrentreprenad.se</a>
+				</div><!--end header_right-->
+			</div><!--end header-->
+			<div id="navigation">
+					<ul id="nav">
+						<li class="navi"><a href="Omoss.html">OM OSS</a></li>
+						<li class="navi"><a href="Tjanster.html">TJÄNSTER</a></li>
+						<li class="navi"><a href="Kungtrygghet.html">KUNDTRYGGHET</a></li>
+						<li class="navi"><a href="prisforfragan.php">PRISFÖRFRÅGAN</a></li>
+						<li class="navi"><a href="ROTavdrag.html">ROT-AVDRAG</a></li>
+                        <!-- <li class="navi"><a href="Referencer.html">REFERENCER</a></li>-->
+						<li class="navi"><a href="Kontaktaoss.html">KONTAKTA OSS</a></li>				
+					</ul>
+				</div><!-- end navigation-->
+			<div id="slider">
+						<script language="javascript">
+
+							/*
+							Random image slideshow- By Tyler Clarke (tyler@ihatecoffee.com)
+							For this script and more, visit http://www.javascriptkit.com
+							*/
+
+							var delay=3000 //set delay in miliseconds
+							var curindex=0
+
+							var randomimages=new Array()
+
+								randomimages[0]="img/Kundtrygghet/kund1.jpg"
+								randomimages[1]="img/Kundtrygghet/kund2.jpg"
+								randomimages[2]="img/Kundtrygghet/kund3.jpg"
+								randomimages[3]="img/Kundtrygghet/kund4.jpg"
+								randomimages[4]="img/Kundtrygghet/kund5.jpg"
+								randomimages[5]="img/Kundtrygghet/kund6.jpg"
+								randomimages[6]="img/Kundtrygghet/kund7.jpg"
+								randomimages[7]="img/Kundtrygghet/kund8.jpg"
+								randomimages[8]="img/Kundtrygghet/kund9.jpg"
+								randomimages[9]="img/Kundtrygghet/kund10.jpg"
+								randomimages[10]="img/Kundtrygghet/kund11.jpg"
+								randomimages[11]="img/Kundtrygghet/kund12.jpg"
+								randomimages[12]="img/Kundtrygghet/kund13.jpg"
+								randomimages[13]="img/Kundtrygghet/kund14.jpg"
+						
+							var preload=new Array()
+
+							for (n=0;n<randomimages.length;n++)
+							{
+								preload[n]=new Image()
+								preload[n].src=randomimages[n]
+							}
+
+							document.write('<img name="defaultimage" src="'+randomimages[Math.floor(Math.random()*(randomimages.length))]+'">')
+
+							function rotateimage()
+							{
+
+							if (curindex==(tempindex=Math.floor(Math.random()*(randomimages.length)))){
+							curindex=curindex==0? 1 : curindex-1
+							}
+							else
+							curindex=tempindex
+
+								document.images.defaultimage.src=randomimages[curindex]
+							}
+
+							setInterval("rotateimage()",delay)
+
+							</script>
+			</div><!--end of slider-->
+			
+			<div id="content" >
+			&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp<span>R & R Entreprenad AB</span> erbjuder samtliga kunder material av högsta standard, professionella och certifierade hantverkare samt full entreprenadförsäkring via länsförsäkringar. 
+			Vi lägger stor vikt vid att varje kund får ett personligt och seriöst mottagande såväl över telefon som vid utförande av våra arbeten. Samtliga anställda talar svenska och är utbildade i svenska hantverksskolor. 
+			När ett arbete bokas hos R & R Entreprenad så är det samma person som mottar offerten som även blir ansvarig arbetsledare på arbetsplatsen. På så vis har våra kunder alltid en direktkontakt med den ansvarige vilket optimerar och förenklar alla kommunikationer mellan oss och kunden under pågående arbete.    
+			Därtill tillhandahåller vi även service och kostnadsfrisupport före, under och efter utfört arbete samt hela 10 års garanti på samtliga takarbeten.    
+
+			
+			</div><!--end of content-->
+			<div id="footer">
+				
+				<div id="copyright">    Copyright &#169 2012  <a href='mailto:e.protsyuk@gmail.com'>YeP</a>
+				</div><!--end of copyright>
+			</div><!--end of footer-->
+		</div><!-- end of wrap-->
+	</body>
+</html>

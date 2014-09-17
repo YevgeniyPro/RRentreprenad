@@ -1,0 +1,95 @@
+/*
+RREntreprenad.se 
+Code by Juggee
+Designed by Vovka.Saint 
+*/
+@import url("reset.css");
+/*General Styles*/
+html  {
+	height: 100%
+
+}
+body {
+font-family: Calibri, Arial, Helvetica;
+color: #4b4b4b;
+min-height: 100%;
+padding-top: 15px;
+margin:0;
+}
+p {
+font-size: 11px;
+color: #4b4b4b;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: #363535;
+	font-size: 11px;
+	
+	
+}
+a: hover {
+	text-decoration: none;
+	outline: none;
+	color: #6d6b6b;
+	font-size: 11px;
+}
+#wrap {
+	background: #fffff;
+	width: 850px;
+	margin: 0 auto;
+}
+#header_left {
+	width: 317px;
+	height: 100px;
+}
+#header_right  {
+
+	font-size: 15;
+	color: #81c241;
+}
+#header_right  ul li a {
+	display:block;
+}
+#navigation {
+	width: 850px;
+	height:45px;
+	background-image: url(img/nav_bg.png);
+	margin: 25px auto;
+}
+#navigation ul li a { 
+	color:#363535;
+}
+
+ul { 
+	font-family: Arial;
+	font-size :14px;
+	padding : 15px 0 0 15px;
+}
+li {
+	display: inline;
+}
+
+}
+#nav {
+	
+}
+
+#content {
+	margin: 25px auto;
+	font-family: Calibri, Arial, Helvetica;
+	font-size :15px;	
+}
+
+	
+	
+li a {
+	font-size: 14px;
+	color: #81c241;
+	padding: 15px 10px 15px 10px; 
+}
+#navigation ul li a:hover {
+		background: url(img/hover_bg.png)
+}
+	
